@@ -153,7 +153,7 @@ The repo ships with a Makefile that automates the common workflows:
 
 ```bash
 git clone <repository-url>
-cd forward-dev
+cd resume-screener
 export GEMINI_API_KEY="your-api-key-here"
 
 make install     # create venv, install Python + Node deps
@@ -218,7 +218,7 @@ stored screening result so they always reflect the latest AI analysis.
 ```bash
 # 1. Clone the repository
 git clone <repository-url>
-cd forward-dev
+cd resume-screener
 
 # 2. Set up the backend (FastAPI)
 python3 -m venv venv
@@ -268,7 +268,7 @@ cd backend && uvicorn app.main:app --host 0.0.0.0 --port 8000
 ## 📁 Project Structure
 
 ```
-forward-dev/
+resume-screener/
 ├── backend/
 │   ├── app/                         # FastAPI application package
 │   │   ├── main.py                  # App entry: lifespan, CORS, router wiring, SPA mount
