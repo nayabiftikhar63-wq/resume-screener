@@ -1,0 +1,56 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Backend secrets & runtime data
+backend/.env
+backend/app.db
+backend/uploads/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Node / frontend build artifacts
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vite/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*~
+
+# Cursor / local agent config
+.claude/
+
+# Demo / recording scripts (local only)
+LOOM_SCRIPT.md
+
+# Accidental root lockfile (no root package.json)
+/package-lock.json
